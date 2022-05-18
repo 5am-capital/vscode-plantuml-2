@@ -28,7 +28,7 @@ import { Diagnoser } from './providers/diagnoser';
 export function activate(context: vscode.ExtensionContext) {
     contextManager.set(context);
     try {
-        const ext = vscode.extensions.getExtension("jebbs.plantuml");
+        const ext = vscode.extensions.getExtension("svmilovanov.plantuml-lokeo");
         const version = ext.packageJSON.version;
         notifyOnNewVersion(context, version);
 

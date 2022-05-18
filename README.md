@@ -1,3 +1,6 @@
+# PlantUML (LOKEO fork) README
+This is a fork of the fantastic PlantUML extension. See below for the original readme.
+
 # PlantUML README
 
 Rich PlantUML support for Visual Studio Code.
