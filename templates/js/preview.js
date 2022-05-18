@@ -43,6 +43,10 @@ var saveStatus = throttle(() => {
     }
 }, 500, 1000);
 
+window.addEventListener('contextmenu', e => {
+    e.stopImmediatePropagation()
+}, true);
+
 window.addEventListener("load", () => {
     switcher = new Switcher();
     let status = undefined;
